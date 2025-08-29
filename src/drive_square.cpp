@@ -5,8 +5,26 @@
 #include <wall_follower/common/utils.h>
 
 
+
+
+
+
+
 int main(int argc, const char *argv[])
 {
+
+
+
+
+    drive(0.1, 0, 0);
+    sleepFor(1.0);
+    drive(0, 0.1,0);
+    sleepFor(1.0);
+    drive(0.1, 0, 0);
+    sleepFor(1.0);
+    // drive(0, 0, 0);
+    // sleepFor(1.0);
+
     /**
      * TODO: (P1.1) Write code to make the robot drive in a square. Then,
      * modify your code so that the robot drives in a square 3 times.
